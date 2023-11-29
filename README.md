@@ -18,13 +18,13 @@ $ python3 speed.py
 
 # How to use
 
-1. Run the program using 
+1. Run the program using
 
 ```bash
 $ python3 speed.py -f <path to video> -c <value of constant>
 ```
 
-2. Select the Area of Interest by clicking on any 4 points to create a polygon. Preferable to make the polygon just 
+2. Select the Area of Interest by clicking on any 4 points to create a polygon. Preferable to make the polygon just
    larger than the vehicle being tracked.
 
 3. To exit, press the Esc key
