@@ -8,7 +8,7 @@ argParser = argparse.ArgumentParser()
 argParser.add_argument("-f", "--file", help="enter file path", default=0)
 argParser.add_argument("-c", "--constant", help="enter constant", default=7.8)
 args = argParser.parse_args()
-constant = args.constant
+constant = float(args.constant)
 file_name = args.file
 try:
     cap = cv2.VideoCapture(file_name)
